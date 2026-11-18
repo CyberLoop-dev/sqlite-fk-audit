@@ -1,0 +1,1 @@
+Use a copy of a SQLite database you own: `python main.py path/to/database.sqlite`. The tool opens it read-only.\n
