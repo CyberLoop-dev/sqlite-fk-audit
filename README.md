@@ -25,10 +25,10 @@ A read-only SQLite database checker that runs foreign_key_check and integrity_ch
 ## :clapper: Demo
 
 ```bash
-python main.py examples/shop.db --json
+python main.py path/to/your-database.db --json
 ```
 
-The example runs locally; no hosted service or upload is required.
+Use a database file you own; the checker opens it read-only.
 
 ## :rocket: Quick Start
 
@@ -46,7 +46,12 @@ python main.py --help
 ## :file_folder: Folder Structure
 
 ```text
-sqlite-fk-audit/\n├── main.py\n├── requirements.txt\n├── tests/test_core.py\n├── examples/README.md\n└── assets/illustration.svg
+sqlite-fk-audit/
+├── main.py
+├── requirements.txt
+├── tests/test_core.py
+├── examples/README.md
+└── assets/illustration.svg
 ```
 
 ## :world_map: Roadmap
